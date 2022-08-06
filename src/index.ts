@@ -7,6 +7,7 @@ import { runner as funcOverloadRunner } from './tests/test-function-overload';
 import { runner as utilityTypesRunner } from './tests/test-utlity-types';
 import { runner as functionsRunner } from './tests/test-functions';
 import { runner as flyweigthRunner } from './tests/test-flyweight';
+import { runner as overlapsRunner } from './tests/test-overlaps';
 
 // genericsRunner();
 // unknownRunner();
@@ -17,6 +18,8 @@ import { runner as flyweigthRunner } from './tests/test-flyweight';
 // utilityTypesRunner();
 // functionsRunner();
 
-flyweigthRunner().then((x) => {
-   return x;
-});
+// flyweigthRunner().then((x) => {
+//    return x;
+// });
+
+overlapsRunner();
