@@ -8,6 +8,7 @@ import { runner as utilityTypesRunner } from './tests/test-utlity-types';
 import { runner as functionsRunner } from './tests/test-functions';
 import { runner as flyweigthRunner } from './tests/test-flyweight';
 import { runner as overlapsRunner } from './tests/test-overlaps';
+import { runner as typeofKeyOfRunner } from './tests/test-typeof-keyof';
 
 // genericsRunner();
 // unknownRunner();
@@ -17,9 +18,10 @@ import { runner as overlapsRunner } from './tests/test-overlaps';
 // funcOverloadRunner();
 // utilityTypesRunner();
 // functionsRunner();
+// overlapsRunner();
 
 // flyweigthRunner().then((x) => {
 //    return x;
 // });
 
-overlapsRunner();
+typeofKeyOfRunner();
