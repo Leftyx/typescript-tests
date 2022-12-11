@@ -9,6 +9,7 @@ import { runner as functionsRunner } from './tests/test-functions';
 import { runner as flyweigthRunner } from './tests/test-flyweight';
 import { runner as overlapsRunner } from './tests/test-overlaps';
 import { runner as typeofKeyOfRunner } from './tests/test-typeof-keyof';
+import { runner as keyOfRunner } from './tests/test-keyof';
 
 // genericsRunner();
 // unknownRunner();
@@ -24,4 +25,6 @@ import { runner as typeofKeyOfRunner } from './tests/test-typeof-keyof';
 //    return x;
 // });
 
-typeofKeyOfRunner();
+// typeofKeyOfRunner();
+
+keyOfRunner();
