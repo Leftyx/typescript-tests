@@ -26,5 +26,4 @@ import { runner as keyOfRunner } from './tests/test-keyof';
 // });
 
 // typeofKeyOfRunner();
-
-keyOfRunner();
+// keyOfRunner();
