@@ -10,7 +10,7 @@ const test001 = (): void => {
 
    const x: Values<typeof Direction> = Direction.Up;
 
-   console.log('RESULT: ', x);
+   console.log('RESULT:', x);
 };
 
 export const runner = (): void => {
